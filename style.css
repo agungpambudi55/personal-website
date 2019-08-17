@@ -1,0 +1,164 @@
+/*
+	Created on Aug 2019
+	ID User Dicoding : 445800 
+	Nama : Agung Pambudi
+	Email : agung.pambudi5595@gmail.com
+*/
+
+*{
+	padding:0;
+	margin:0; 
+	font-family:"Century Gothic";
+	font-size:1vw;
+	color:#FFF;
+    border: none;
+}
+
+body{
+	background-image: linear-gradient(to left, #434343 0%, #141414 100%);
+}
+
+.menubar{
+	height:8%;
+	width:100%;
+	background:#141414;
+	position:fixed;
+	top:0;
+	padding-left:32%;
+	z-index:100;
+	border:0px solid red;
+}
+
+.menubar a{
+	border:0px solid red;
+	text-decoration:none;
+	height:72%;
+	float:left;
+	width:12%;
+	text-align:center;
+	padding-top:1%;
+	font-size:1.2vw;
+}
+
+.menubar a:hover{
+	background:#333;
+	border-bottom:5px solid #6CF;
+}
+
+.profile{
+	padding-top:3.5%;
+	border:0px solid white;
+	height:25%;
+	width:25%;
+	float:right;
+	margin-right:10%;
+}
+
+.touchme{
+	float:right;
+	margin-top:38%;
+	border:0px solid red;
+	color:#6CF;
+	font-size:2vw;
+	margin-right:-16%;
+}
+
+.doublequote{
+	color:#6CF;
+	font-size:4vw;
+	float:left;
+	margin-top:-1%;
+}
+
+.quote{
+	float:left;
+	color:#FFF;
+	font-weight:bold;
+	font-size:2.5vw;
+}
+
+.boxquote{
+	padding:22.5% 0 0 10%;
+}
+
+.content_1{
+	border:0px solid yellow;
+	padding:18% 0 15% 16%;
+	position:fixed;
+	visibility:visible;
+}
+
+.text_1{
+	border:0px solid red;
+	font-size:5vw;
+}
+
+.text_2{
+	border:0px solid red;
+	font-size:5vw;
+	color:#6CF;
+	margin-top:-8%;
+	margin-left:-1.5%;
+}
+
+.text_3{
+	border:0px solid red;
+	font-size:2vw;
+	color:#FFF;
+}
+
+.content_2{
+	border:0px solid red;
+	position:fixed;
+	padding:14% 0 10% 16%;
+	visibility:hidden;	
+}
+
+.text_2a{
+	border:0px solid red;
+	font-size:1.7vw;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.text_2b{
+	border:0px solid yellow;
+	color:#6CF;
+	font-size:1.5vw;
+	font-weight:bold;
+	margin-bottom:5%;
+}
+
+.content_3{
+	border:0px solid red;
+	position:fixed;
+	padding:12% 0 10% 16%;
+	visibility:hidden;	
+}
+
+.text_3a{
+	border:0px solid red;
+	font-size:1.7vw;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.text_3b{
+	border:0px solid yellow;
+	color:#6CF;
+	font-size:1.5vw;
+	font-weight:bold;
+	margin-bottom:10%;
+}
+
+.footer{
+	border:0px solid red;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:#000;
+	font-size:1vw;
+	padding:0.5% 0%;
+	text-align:center;
+	z-index:50;
+}
